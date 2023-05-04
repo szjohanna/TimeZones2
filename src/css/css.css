@@ -1,0 +1,157 @@
+.background {
+    -fx-background-color: white;
+}
+
+#minimizeButton {
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER;
+    -fx-background-image: url("min_white.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border-radius: 0%;
+    -fx-background-radius: 0.0em;
+}
+
+#closeButton {
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER;
+    -fx-background-image: url("close_white.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border-radius: 0%;
+    -fx-background-radius: 0.0em;
+}
+
+#minimizeButton:hover {
+    -fx-background-color: #171717;
+    -fx-background-image: url("min_white.png");
+}
+
+#closeButton:hover {
+    -fx-background-color: #171717;
+    -fx-background-image: url("close_white.png");
+}
+
+/*shadowpane is a bigger, transparent scene so the shadow effect on the main anchorpane can show*/
+#shadowpane {
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, #00000066, 50, 0.5, 0.0, 0.0);
+}
+
+#topBar {
+     -fx-background-color: transparent;
+}
+
+#topBarPane {
+     -fx-background-color: transparent;
+}
+
+#mainAnchorPane {
+    -fx-background-color: black;
+}
+
+#title {
+    -fx-font-size: 30px;
+    -fx-font-family: "Franklin Gothic Book";
+    -fx-text-fill: #FFFFFF;
+    -fx-alignment: center;
+    
+}
+
+
+#menubutton {
+    
+    -fx-pref-height: 32px;
+    -fx-pref-width: 232px;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-background-color: transparent;
+    -fx-border-width: 1px;
+    -fx-border-color: white;
+    -fx-font-size: 13;
+    -fx-text-fill: white;
+    -fx-mark-color: white;
+    -fx-my-menu-font-color: #FFFFFF;       
+}
+
+#menubutton:hover {
+    -fx-border-color: #585858ff;
+    -fx-text-fill: #585858ff; 
+    -fx-mark-color: #585858ff
+}
+
+#menubutton2 {
+    
+    -fx-pref-height: 32px;
+    -fx-pref-width: 232px;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-background-color: transparent;
+    -fx-border-width: 1px;
+    -fx-border-color: white;
+    -fx-font-size: 13;
+    -fx-mark-color: white;
+    -fx-text-fill: FFFFFF;
+    
+}
+
+#menubutton2:hover {
+    -fx-border-color: #585858ff;
+    -fx-text-fill: #585858ff; 
+    -fx-mark-color: #585858ff
+}
+.menu-button .label {
+    -fx-font-size: 13;
+    -fx-text-fill: FFFFFF;
+}
+.menu-item {
+    -fx-padding: 0.0em 0.0em 0.0em 0.0em;
+    -fx-pref-height: 25px;
+    -fx-text-fill: black;
+    -fx-background: #a5a5a5; 
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+}
+.menu-item .label{
+    -fx-font-size: 13;
+    -fx-text-fill: black;
+}
+.menu-item .label:hover{
+    -fx-font-size: 13;
+    -fx-text-fill: white;
+}
+.menu-button .label:hover{
+    -fx-font-size: 13;
+    -fx-text-fill: #585858ff;
+}
+.context-menu {
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+}
+
+
+#next {
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-background-color: transparent;
+    -fx-border-width: 1px;
+    -fx-border-color: white;
+    -fx-font-size: 13;
+    -fx-text-fill: white; 
+}
+
+#next:hover {
+    -fx-border-color: #585858ff;
+    -fx-text-fill: #585858ff; 
+}
+
+#errorTxt {
+   -fx-font-size: 10px;
+   -fx-font-family: "Century Gothic";
+   -fx-fill: #fd483f;
+}
+#errorTxt2 {
+   -fx-font-size: 10px;
+   -fx-font-family: "Century Gothic";
+   -fx-fill: #fd483f;
+}

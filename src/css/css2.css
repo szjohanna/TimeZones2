@@ -1,0 +1,225 @@
+
+#minimizeButton {
+    -fx-background-color: black;
+    -fx-alignment: CENTER;
+    -fx-background-image: url("min_white.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border-radius: 0%;
+    -fx-background-radius: 0.0em;
+}
+
+#closeButton {
+    -fx-background-color: black;
+    -fx-alignment: CENTER;
+    -fx-background-image: url("close_white.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border-radius: 0%;
+    -fx-background-radius: 0.0em;
+}
+
+#minimizeButton:hover {
+    -fx-background-color: #171717;
+    -fx-background-image: url("min_white.png");
+}
+
+#closeButton:hover {
+    -fx-background-color: #171717;
+    -fx-background-image: url("close_white.png");
+}
+
+/*shadowpane is a bigger, transparent scene so the shadow effect on the main anchorpane can show*/
+#shadowpane {
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, #00000066, 50, 0.5, 0.0, 0.0);
+}
+
+#topBar {
+     -fx-background-color: transparent;
+}
+
+#topBarPane {
+     -fx-background-color: transparent;
+}
+
+#mainAnchorPane {
+    -fx-background-image: url("g3.png");
+	 -fx-background-position: right bottom;
+	 -fx-background-repeat:no-repeat;
+	 -fx-alignment: BOTTOM_RIGHT;
+	 -fx-background-color: black;
+}
+
+
+#text1 {
+    -fx-font-size: 30px;
+    -fx-font-family: "Franklin Gothic Book";
+    -fx-text-fill: #FFFFFF;
+    -fx-alignment: center;
+    
+}
+
+#text2 {
+    -fx-font-size: 30px;
+    -fx-font-family: "Franklin Gothic Book";
+    -fx-text-fill: #FFFFFF;
+    -fx-alignment: center;
+    
+}
+
+#resetButton {
+    -fx-background-color: transparent;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-border-width: 1px;
+    -fx-border-color: #a5a5a5;
+    -fx-font-size: 13;
+    -fx-text-fill: #a5a5a5; 
+}
+
+#resetButton:hover {
+    -fx-background-color: transparent;
+    -fx-border-color: #585858ff;
+    -fx-text-fill: #585858ff; 
+}
+
+#nextButton {
+    -fx-background-color: transparent;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-border-width: 1px;
+    -fx-border-color: #a5a5a5;
+    -fx-font-size: 13;
+    -fx-text-fill: #a5a5a5; 
+}
+
+#nextButton:hover {
+    -fx-background-color: transparent;
+    -fx-border-color: #585858ff;
+    -fx-text-fill: #585858ff; 
+}
+
+#backButton {
+    -fx-background-color: transparent;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-border-width: 1px;
+    -fx-border-color: #a5a5a5;
+    -fx-font-size: 13;
+    -fx-text-fill: #a5a5a5; 
+}
+
+#backButton:hover {
+    -fx-background-color: transparent;
+    -fx-border-color: #585858ff;
+    -fx-text-fill: #585858ff; 
+}
+
+.date-picker .arrow-button {
+	-fx-background-color: black;
+	-fx-background-radius: 0;
+}
+.date-picker .arrow-button:hover {
+	-fx-background-color: #585858ff;
+}
+.date-picker .arrow-button .arrow {
+	-fx-background-color: white;
+}
+.date-picker .arrow-button .arrow:hover {
+	-fx-background-color: #585858ff;
+}
+.date-picker .cell {
+	-fx-background-color: white;
+}
+.date-picker .cell:hover {
+	-fx-background-color: #a5a5a5;
+}
+.date-picker .cell:focused {
+	-fx-background-color: #a5a5a5;
+}
+.date-picker .selected {
+	-fx-background-color: #a5a5a5;
+	-fx-text-fill: white;
+}
+.date-picker .selected:focused {
+	-fx-background-color: #585858ff;
+	-fx-text-fill: white;
+}
+.date-picker-popup  {
+	-fx-border-color: transparent;
+}
+.date-picker-popup .month-year-pane {
+	-fx-background-color: #a5a5a5;
+}
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: white;
+}
+.date-picker-popup .week-number-cell {
+	-fx-text-fill: white;
+}
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+        -fx-background-color: white;
+} 
+.date-picker-popup .spinner .button .left-arrow:hover,
+.date-picker-popup .spinner .button .right-arrow:hover {
+	-fx-background-color: #585858ff;
+} 
+.date-picker-popup .spinner .button,
+.date-picker-popup .spinner .button {
+	-fx-background-color: transparent;
+}
+.date-picker .text-field {
+    -fx-control-inner-background: black;
+    -fx-text-fill: #a5a5a5;
+}
+
+.date-picker:focused {
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: #585858ff;
+}
+
+
+
+#textField2 {
+    -fx-background-color: transparent;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-border-width: 1px;
+    -fx-border-color: #a5a5a5;
+    -fx-font-size: 13;
+    -fx-text-fill: #a5a5a5; 
+}
+
+#textField2:hover {
+    -fx-border-color: #585858ff;
+    -fx-text-fill: #585858ff; 
+}
+
+#textField3 {
+    -fx-background-color: transparent;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-border-width: 1px;
+    -fx-border-color: #a5a5a5;
+    -fx-font-size: 13;
+    -fx-text-fill: #a5a5a5; 
+}
+
+#textField3:hover {
+    -fx-border-color: #585858ff;
+    -fx-text-fill: #585858ff; 
+}
+
+#textField2error {
+   -fx-font-size: 10px;
+   -fx-font-family: "Century Gothic";
+   -fx-fill: #fd483f;
+}
+
+#textField3error {
+   -fx-font-size: 10px;
+   -fx-font-family: "Century Gothic";
+   -fx-fill: #fd483f;
+}

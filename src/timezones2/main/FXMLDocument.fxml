@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="shadowpane" fx:id="shadowpane" prefHeight="550.0" prefWidth="800.0" styleClass="background" stylesheets="@../../css/css.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="timezones2.main.FXMLDocumentController">
+   <children>
+      <AnchorPane id="mainAnchorPane" fx:id="mainAnchorPane" layoutX="250.0" layoutY="50.0" prefHeight="450.0" prefWidth="300.0" styleClass="#mainAnchorPane">
+         <children>
+            <AnchorPane id="topBarPane" fx:id="topBarPane" prefHeight="25.0" prefWidth="300.0" styleClass="#topBarPane">
+               <children>
+                  <HBox id="topBar" fx:id="topBar" alignment="TOP_RIGHT" prefHeight="25.0" prefWidth="300.0">
+                     <children>
+                        <Button fx:id="minimizeButton" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0" styleClass="#minimizeButton">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="closeButton" contentDisplay="CENTER" layoutX="10.0" maxHeight="25.0" maxWidth="50.0" minHeight="25.0" minWidth="50.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="50.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <Text id="title" fx:id="title" fill="WHITE" layoutX="35.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time Zones" wrappingWidth="195.79171752929688" />
+            <MenuButton fx:id="menubutton" layoutX="29.0" layoutY="160.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="232.0" text="Choose starting point:">
+              <items>
+                <MenuItem fx:id="budapest" mnemonicParsing="false" text="Budapest" />
+                <MenuItem fx:id="frankfurt" mnemonicParsing="false" text="Frankfurt" />
+                  <MenuItem fx:id="munich" mnemonicParsing="false" text="Munich" />
+                  <MenuItem fx:id="newyork" mnemonicParsing="false" text="New York" />
+                  <MenuItem fx:id="seattle" mnemonicParsing="false" text="Seattle" />
+                  <MenuItem fx:id="toronto" mnemonicParsing="false" text="Toronto" />
+                  <MenuItem fx:id="vancouver" mnemonicParsing="false" text="Vancouver" />
+              </items>
+            </MenuButton>
+            <MenuButton fx:id="menubutton2" layoutX="29.0" layoutY="233.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="232.0" text="Choose destination:">
+               <items>
+                  <MenuItem fx:id="budapest2" mnemonicParsing="false" text="Budapest" />
+                  <MenuItem fx:id="frankfurt2" mnemonicParsing="false" text="Frankfurt" />
+                  <MenuItem fx:id="munich2" mnemonicParsing="false" text="Munich" />
+                  <MenuItem fx:id="newyork2" mnemonicParsing="false" text="New York" />
+                  <MenuItem fx:id="seattle2" mnemonicParsing="false" text="Seattle" />
+                  <MenuItem fx:id="toronto2" mnemonicParsing="false" text="Toronto" />
+                  <MenuItem fx:id="vancouver2" mnemonicParsing="false" text="Vancouver" />
+               </items>
+            </MenuButton>
+            <Text fx:id="toTxt" fill="WHITE" layoutX="31.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To:" />
+            <Text fx:id="fromTxt" fill="WHITE" layoutX="30.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From:" />
+            <Button id="next" fx:id="next" layoutX="241.0" layoutY="411.0" mnemonicParsing="false" onAction="#open" text="Next" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
